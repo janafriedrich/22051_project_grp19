@@ -25,13 +25,13 @@ rect
 50
 % FILTERING
 % Use FIR or IIR?
-fir
+iir
 % filter order
 4
 % Approximation method. Possible: butterworth, chebychevI, chebychevII, cauer
 cauer
 % type. Possible: lp, hp, bp, bs
-bp
+lp
 %cut-off frequency/-ies (Hz)
 1000, 4000
 % PLOTTING
