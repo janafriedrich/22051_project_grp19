@@ -1,6 +1,6 @@
 %% This is the specification file for the assingnment project in 22051.
 % Use input signal or generated signal? Possible: wav, generate
-wav
+generate
 % WAV-filename
 mini-me_short.wav
 % Target sampling frequency (Hz) of the .wav file
@@ -37,7 +37,7 @@ bp
 % PLOTTING
 % Limits of axis in time and spectrum.
 % xlim - time (s)
-3
+0.1
 % ylim - amplitude (a.u.)
 1
 % frequency on linear or log axis?
