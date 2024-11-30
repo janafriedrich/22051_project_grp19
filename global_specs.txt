@@ -1,13 +1,13 @@
 %% This is the specification file for the assingnment project in 22051.
 % Use input signal or generated signal? Possible: wav, generate (variable name= input)
-generate
+wav
 % WAV-filename (variable name= fname)
 mini-me_short.wav
 % Target sampling frequency (Hz) of the .wav file (variable name= fs2)
 10000
 % SIGNAL GENERATOR
 % Type of signal. Possible: rect, tone, tone-complex, noise (variable name= type_signal)
-rect
+tone-complex
 % Sampling frequency (Hz) (variable name= fs1)
 20000
 % Overall duration of the signal (in s) (variable name= T)
@@ -29,7 +29,7 @@ iir
 % filter order (variable name= order)
 4
 % Approximation method. Possible: butterworth, chebychevI, chebychevII, cauer (variable name= method)
-cauer 
+chebychevI
 % type. Possible: lp, hp, bp, bs (variable name= tpye)
 lp
 %cut-off frequency/-ies (Hz) (variable name= cutoffFrequencies)
@@ -37,7 +37,7 @@ lp
 % PLOTTING
 % Limits of axis in time and spectrum.
 % xlim - time (s) (use bigger limit if use the wav file) (variable name= xlimTime)
-4
+3
 % ylim - amplitude (a.u.) (variable name= ylimAmplitude)
 1
 % frequency on linear or log axis?
